@@ -1,6 +1,3 @@
-# Copyright (C) 2024 SUNRISE
-# Licensed under the CLA License
-
 - type: entity
   name: Pozitivchik
   id: MobPozitivchik
