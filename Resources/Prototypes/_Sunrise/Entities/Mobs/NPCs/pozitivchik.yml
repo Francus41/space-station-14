@@ -104,4 +104,29 @@
     - pozitivchik-message-2
     - pozitivchik-message-3
     - pozitivchik-message-4
-    - pozitivchik-message-5 
+    - pozitivchik-message-5
+
+- type: entity
+  name: Pozitivchik Funny
+  id: MobPozitivchikFunny
+  parent: MobPozitivchik
+  description: A cheerful and friendly slime creature that spreads positivity wherever it goes! This one has a particularly silly face.
+  components:
+  - type: Sprite
+    sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: pozitivchik
+    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+      state: pozitivchik-face-agagaga
+      shader: unshaded
+    - map: [ "head" ]
+  - type: Inventory
+    speciesId: slime
+    templateId: head
+    displacements:
+      head:
+        sizeMaps:
+          32:
+            sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
+            state: head 

@@ -32,6 +32,18 @@
       ]
     },
     {
+      "name": "pozitivchik-face-agagaga",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-face-agagaga.png"
+        }
+      ]
+    },
+    {
       "name": "pozitivchik-dead",
       "directions": 1,
       "delays": [
