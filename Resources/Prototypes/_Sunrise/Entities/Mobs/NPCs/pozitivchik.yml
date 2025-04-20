@@ -1,0 +1,109 @@
+# Copyright (C) 2024 SUNRISE
+# Licensed under the CLA License
+
+- type: entity
+  name: Pozitivchik
+  id: MobPozitivchik
+  parent: MobSlimesPet
+  description: A cheerful and friendly slime creature that spreads positivity wherever it goes!
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: pozitivchik
+    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+      state: pozitivchik-face
+      shader: unshaded
+    - map: [ "head" ]
+  - type: Inventory
+    speciesId: slime
+    templateId: head
+    displacements:
+      head:
+        sizeMaps:
+          32:
+            sprite: _Sunrise/Structures/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
+            state: head
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      200: Dead
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/Effects/Footsteps/slime1.ogg
+      params:
+        volume: -6
+  - type: Tag
+    tags:
+    - FootstepSound
+    - DoorBumpOpener
+    - CannotSuicide
+    - VimPilot
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: pozitivchik
+        BaseUnshaded: pozitivchik-face
+      Dead:
+        Base: pozitivchik-dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatSlime
+      amount: 1
+    - id: MaterialSmileExtract
+      amount: 1
+  - type: Damageable
+    damageModifierSet: SlimePet
+  - type: Bloodstream
+    bloodlossHealDamage:
+      types:
+        Bloodloss:
+          -0.8
+  - type: Temperature
+    heatDamageThreshold: 800
+    coldDamageThreshold: 0
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 3
+        Caustic: 3
+  - type: MultiHandedItem
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-slime
+  - type: MobPrice
+    price: 3000
+  - type: GhostRole
+    name: ghost-role-information-pozitivchik-name
+    description: ghost-role-information-pozitivchik-description
+    rules: ghost-role-information-nonantagonist-rules
+    raffle: null
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: female
+  - type: TTS
+    voice: Neco
+  - type: InteractionPopup
+    interactDelay: 0.5
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound: /Audio/Animals/cat_meow.ogg
+    successChance: 1
+  - type: Puller
+    needsHands: false
+  - type: SmileSlime
+    action: SmileAffection
+    soundSpecifier: /Audio/Animals/cat_meow.ogg
+    actionTime: 5
+    affectionPopupText: "pozitivchik-affection-popup"
+    damageSpecifier:
+      groups:
+        Brute: -5
+        Burn: -5
+      types:
+        Bloodloss: -5
+    messages:
+    - pozitivchik-message-1
+    - pozitivchik-message-2
+    - pozitivchik-message-3
+    - pozitivchik-message-4
+    - pozitivchik-message-5 

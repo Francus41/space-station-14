@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "license": "CLA",
+  "copyright": "SUNRISE",
+  "size": [
+    32,
+    32
+  ],
+  "states": [
+    {
+      "name": "pozitivchik",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-body.png"
+        }
+      ]
+    },
+    {
+      "name": "pozitivchik-face",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-face.png"
+        }
+      ]
+    },
+    {
+      "name": "pozitivchik-dead",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-dead.png"
+        }
+      ]
+    },
+    {
+      "name": "pozitivchik-agagaga",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-agagaga-INHAND.png"
+        }
+      ]
+    },
+    {
+      "name": "pozitivchik",
+      "directions": 1,
+      "delays": [
+        1
+      ],
+      "frames": [
+        {
+          "file": "pozitivchik-INHAND.png"
+        }
+      ]
+    }
+  ]
+} 
