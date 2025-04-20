@@ -5,7 +5,7 @@
   description: A cheerful and friendly slime creature that spreads positivity wherever it goes!
   components:
   - type: Sprite
-    sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
+    sprite: _Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: pozitivchik
@@ -20,7 +20,7 @@
       head:
         sizeMaps:
           32:
-            sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
+            sprite: _Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
             state: head
   - type: MobThresholds
     thresholds:
@@ -113,7 +113,7 @@
   description: A cheerful and friendly slime creature that spreads positivity wherever it goes! This one has a particularly silly face.
   components:
   - type: Sprite
-    sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
+    sprite: _Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: pozitivchik
@@ -128,5 +128,5 @@
       head:
         sizeMaps:
           32:
-            sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
+            sprite: _Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
             state: head 
