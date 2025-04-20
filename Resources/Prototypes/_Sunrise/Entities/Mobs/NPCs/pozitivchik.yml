@@ -22,7 +22,7 @@
       head:
         sizeMaps:
           32:
-            sprite: _Sunrise/Structures/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
+            sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik_displacement.rsi
             state: head
   - type: MobThresholds
     thresholds:
