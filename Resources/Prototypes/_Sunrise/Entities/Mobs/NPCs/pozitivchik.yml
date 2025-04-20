@@ -5,6 +5,7 @@
   description: A cheerful and friendly slime creature that spreads positivity wherever it goes!
   components:
   - type: Sprite
+    sprite: Textures/_Sunrise/Mobs/Pets/Pozitivchik/pozitivchik.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: pozitivchik
