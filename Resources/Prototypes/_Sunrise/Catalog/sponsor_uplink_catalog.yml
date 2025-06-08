@@ -2916,3 +2916,147 @@
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieSeya
+  name: uplink-sunrise-plushie-seya-name
+  productEntity: PlushieSeya
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieValancius
+  name: uplink-sunrise-plushie-valancius-name
+  productEntity: PlushieValancius
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieJin
+  name: uplink-sunrise-plushie-jin-name
+  productEntity: PlushieJin
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieAnna
+  name: uplink-sunrise-plushie-anna-name
+  productEntity: PlushieAnna
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieDanis
+  name: uplink-sunrise-plushie-danis-name
+  productEntity: PlushieDanis
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieKaterina
+  name: uplink-sunrise-plushie-katerina-name
+  productEntity: PlushieKaterina
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieNian
+  name: uplink-sunrise-plushie-nian-name
+  productEntity: PlushieNian
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieNika
+  name: uplink-sunrise-plushie-nika-name
+  productEntity: PlushieNika
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieSanya
+  name: uplink-sunrise-plushie-sanya-name
+  productEntity: PlushieSanya
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieVelma
+  name: uplink-sunrise-plushie-velma-name
+  productEntity: PlushieVelma
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieSunny
+  name: uplink-sunrise-plushie-sunny-name
+  productEntity: PlushieSunny
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: UplinkSunrisePlushieTurchin
+  name: uplink-sunrise-plushie-turchin-name
+  productEntity: PlushieTurchin
+  cost:
+    Suntick: 10
+  categories:
+  - General
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1

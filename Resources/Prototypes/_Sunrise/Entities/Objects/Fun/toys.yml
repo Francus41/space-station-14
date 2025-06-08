@@ -262,7 +262,7 @@
   id: PlushieTwentyFour
   parent: BasePlushie
   name: Uzo-Kur-Petaksay
-  description: A grey Unath dressed in the garb of the so-called ‘Arbiter’. A kind enough Master.
+  description: A grey Unath dressed in the garb of the so-called 'Arbiter'. A kind enough Master.
   components:
   - type: Sprite
     sprite: _Sunrise/Objects/Fun/toys.rsi
@@ -827,7 +827,7 @@
   parent: BasePlushie
   id: PlushieRaisya
   name: Plushie Raisya
-  description: Purr! “Meow! Nya! her favorite UwU words.
+  description: Purr! "Meow! Nya! her favorite UwU words.
   components:
   - type: Sprite
     state: raisya
@@ -1115,3 +1115,123 @@
   - type: TriggerOnActivate
   - type: UseDelay
     delay: 1
+
+- type: entity
+  id: PlushieSeya
+  parent: BasePlushie
+  name: Plush Seya-Tanaka
+  description: An ordinary plush vulpkanin with dark fur, but it seems to be watching you.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-seyaa
+
+- type: entity
+  id: PlushieValancius
+  parent: BasePlushie
+  name: Plush Isabella Von Valancius
+  description: A plush toy of the IAA, smelling of bureaucracy, corporate law, and cats.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-valancius
+
+- type: entity
+  id: PlushieJin
+  parent: BasePlushie
+  name: Plush Jin-Dimepa
+  description: Will save you from anywhere in the world if you're his friend or girlfriend, loves his job but loves Olivia even more, black because he smokes a lot.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-jin
+
+- type: entity
+  id: PlushieAnna
+  parent: BasePlushie
+  name: Plush Anna Solovyova
+  description: She loves her job and isn't shy about expressing her affection for friends, generously showering them with joyful "meows!".
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-anna
+
+- type: entity
+  id: PlushieDanis
+  parent: BasePlushie
+  name: Plush Danis Shelby
+  description: A plush paramedic with a non-plush personality. The toy has an inscription: "10% of the time working, 90% - trying to get the CMO".
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-danis
+
+- type: entity
+  id: PlushieKaterina
+  parent: BasePlushie
+  name: Plush Katerina Krestova
+  description: A plush toy of the Chief Medical Officer, smells of ironed felinids.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-katerina
+
+- type: entity
+  id: PlushieNian
+  parent: BasePlushie
+  name: Plush Alfea Cometraider
+  description: A plush nian who is proud of her beauty: the pattern on her wings and antennae! Loves to chirp.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-nian
+
+- type: entity
+  id: PlushieNika
+  parent: BasePlushie
+  name: Plush Nika Bragina
+  description: If you die when she's on shift, beware - for once you fall into the hands of this arcana, you'll become a felinid.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-nika
+
+- type: entity
+  id: PlushieSanya
+  parent: BasePlushie
+  name: Plush Sanya Krestov
+  description: Former Sanya Serenky. Responsible for mass mouse genocide, and his bag is full of contraband. Owns two vulps and loves to purr for Kate.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-sanya
+
+- type: entity
+  id: PlushieVelma
+  parent: BasePlushie
+  name: Plush Eustachius Gorky
+  description: A slightly alternatively gifted researcher. Sometimes, in the evenings, he repeats: "Have you seen Kainar?".
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-velma
+
+- type: entity
+  id: PlushieSunny
+  parent: BasePlushie
+  name: Plush Sunny Solnyshkova
+  description: A dazzlingly shining pink sun from the strategic reserve of pink vulps NT.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-sunny
+
+- type: entity
+  id: PlushieTurchin
+  parent: BasePlushie
+  name: Plush Turin Kapustin
+  description: A grumpy, eternally beer-thirsty dwarf botanist, don't ask him to grow weed. Smells of deus ambrosia and alcohol breath.
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Objects/Fun/toys.rsi
+    state: plushie-turchin

@@ -25,19 +25,19 @@
       {
         "name": "plushie-mori"
       },
-	  {
+      {
         "name": "plushie-mechanix"
       },
-	  {
+      {
         "name": "salvage-specialist"
       },
-	  {
+      {
         "name": "plushie-krokozyabka"
       },
-	  {
+      {
         "name": "plushie-jamal"
       },
-	  {
+      {
         "name": "plushie-molnia"
       },
       {
@@ -282,15 +282,49 @@
       {
         "name": "goldenw-inhand-right",
         "directions": 4
-    },
-    {
+      },
+      {
         "name": "plushie_narvi"
-    },
-    {
+      },
+      {
         "name": "plushie_sansa"
-    },
-    {
+      },
+      {
         "name": "plushie_tatarchuk"
+      },
+      {
+        "name": "plushie_velma"
+      },
+      {
+        "name": "plushie_sanya"
+      },
+      {
+        "name": "plushie_katerina"
+      },
+      {
+        "name": "plushie_sunny"
+      },
+      {
+        "name": "plushie_anna"
+      },
+      {
+        "name": "plushie_danis"
+      },
+      {
+        "name": "plushie_nika"
+      },
+      {
+        "name": "plushie_nian"
+      },
+      {
+        "name": "plushie_jin"
+      },
+      {
+        "name": "plushie_valancius"
+      },
+      {
+        "name": "plushie_seyaa"
       }
     ]
   }
+}
