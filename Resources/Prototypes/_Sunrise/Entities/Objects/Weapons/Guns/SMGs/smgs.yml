@@ -249,9 +249,9 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    minAngle: 2
-    maxAngle: 55
-    fireRate: 7
+    minAngle: 3
+    maxAngle: 65
+    fireRate: 6
     soundGunshot:
       path: /Audio/_Sunrise/Weapons/Guns/SMGs/scorpion/scorpion_shot.ogg
   - type: Clothing
